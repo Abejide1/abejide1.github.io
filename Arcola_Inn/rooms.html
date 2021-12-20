@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rooms Page</title>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+     <script src="script.js"></script>
+  </head>
+  <body>
+    
+   <!--Head nav bar -->
+      <div class="header" id="myHeader">
+  <div class="header-right">
+    <a href="index" href="index.html">Home</a>
+    <a class="active" href="#rooms" href="room.html">Rooms</a>
+    <a href="contact.html">Contact</a>
+   
+  </div>
+</div>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+    <h1 style="text-align:center" >Rooms</h1>
+<hr>
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/g2.jpg" alt="Room one" style="width:100%">
+       <h6 style="text-align:left"> Max Occupancy: 2 Guests</h6>
+      <h3 style="text-align:center">1 Queen Bed</h3>
+
+
+    <h5><b>Room Highlights:</b></h5>
+    <ul style="list-style-type:disc;">
+       <li>32-inch HDTV</li>
+       <li>Microwave</li>
+       <li>Fridge</li>
+      <li>Iron</li>
+      <li>Hairdryer</li>
+</ul>
+
+      <button type="button" class="button " onclick="document.getElementById('id01').style.display='block'"><span>Book Now </span></button>
+
+      
+      <!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+
+    <div class="container">
+      <h1>Reservation Form</h1>
+      <hr>
+      <label for="ckin"><b>Check-In Date</b></label>
+      <input type="date" placeholder="MM/DD/YYYY" name="checkI" required>
+<br><br>
+      <label for="ckout"><b>Check-Out Date</b></label>    
+      <input type="date" placeholder="MM/DD/YYYY" name="checkO" required>
+      <br><br>
+      <label for="eml"><b>Email</b></label>    
+      <input type="email" placeholder="Email" name="email" required>
+<br><br>
+
+      <label for="firstn"><b>First Name</b></label>    
+      <input type="text" placeholder="First Name" name="fname" required>
+
+      <label for="lastn"><b>Last Name</b></label>    
+      <input type="text" placeholder="Last Name" name="lname" required>
+ 
+      
+       <button type="submit">Complete Reservation</button>     
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+</div>
+    </div>
+ 
+<!--Second Image-->
+  <div class="column">
+    <div class="content">
+      <img src="images/g7.jpg" alt="Room Two" style="width:100%">
+      <h6 style="text-align:left"> Max Occupancy: 2 Guests</h6>
+      <h3 style="text-align:center">1 King Bed</h3>
+      
+      
+    <h5><b>Room Highlights:</b></h5>
+    <ul style="list-style-type:disc;">
+       <li>32-inch HDTV</li>
+       <li>Microwave</li>
+       <li>Fridge</li>
+      <li>Iron</li>
+      <li>Hairdryer</li>
+</ul>
+
+    
+      <button class="button" onclick="document.getElementById('id01').style.display='block'"><span>Book Now </span></button>
+            <!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+  
+    <div class="container">
+      <h1>Book Now</h1>
+      <hr>
+
+      <label for="ckin"><b>Check-In Date</b></label>
+      <input type="date" placeholder="MM/DD/YYYY" name="checkI" required>
+<br><br>
+      <label for="ckout"><b>Check-Out Date</b></label>    
+      <input type="date" placeholder="MM/DD/YYYY" name="checkO" required>
+      <br><br>
+      <label for="eml"><b>Email</b></label>    
+      <input type="email" placeholder="Email" name="email" required>
+<br><br>
+
+      <label for="firstn"><b>First Name</b></label>    
+      <input type="text" placeholder="First Name" name="fname" required>
+
+      <label for="lastn"><b>Last Name</b></label>    
+      <input type="text" placeholder="Last Name" name="lname" required>
+
+       <button type="submit">Complete Reservation</button>     
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+    </div>
+</div>
+    </div>
+ 
+
+<!--third Image-->
+
+ <div class="column">
+    <div class="content">
+      <img src="images/g8.jpg" alt="Room Three" style="width:100%">
+      <h6 style="text-align:left"> Max Occupancy: 4 Guests</h6>
+      <h3 style="text-align:center">2 Twin Beds</h3>
+      
+      
+    <h5><b>Room Highlights:</b></h5>
+    <ul style="list-style-type:disc;">
+       <li>32-inch HDTV</li>
+       <li>Microwave</li>
+       <li>Fridge</li>
+      <li>Iron</li>
+      <li>Hairdryer</li>
+</ul>
+
+    
+      <button class="button" onclick="document.getElementById('id01').style.display='block'"><span>Book Now </span></button>
+            <!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+  
+    <div class="container">
+      <h1>Book Now</h1>
+      <hr>
+
+      <label for="ckin"><b>Check-In Date</b></label>
+      <input type="date" placeholder="MM/DD/YYYY" name="checkI" required>
+<br><br>
+      <label for="ckout"><b>Check-Out Date</b></label>    
+      <input type="date" placeholder="MM/DD/YYYY" name="checkO" required>
+      <br><br>
+      <label for="eml"><b>Email</b></label>    
+      <input type="email" placeholder="Email" name="email" required>
+<br><br>
+      <label for="firstn"><b>First Name</b></label>    
+      <input type="text" placeholder="First Name" name="fname" required>
+
+      <label for="lastn"><b>Last Name</b></label>    
+      <input type="text" placeholder="Last Name" name="lname" required>
+
+       <button type="submit">Complete Reservation</button>     
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+    </div>
+</div>
+    </div>
+ 
+
+<!--forth Image-->
+
+ <div class="column">
+    <div class="content">
+      <img src="images/g4.jpg" alt="Room Three" style="width:100%">
+      <h6 style="text-align:left"> Max Occupancy: 4 Guests</h6>
+      <h3 style="text-align:center">2 Twin Beds</h3>
+      
+      
+    <h5><b>Room Highlights:</b></h5>
+    <ul style="list-style-type:disc;">
+       <li>32-inch HDTV</li>
+       <li>Microwave</li>
+       <li>Fridge</li>
+      <li>Iron</li>
+      <li>Hairdryer</li>
+</ul>
+
+    
+      <button class="button" onclick="document.getElementById('id01').style.display='block'"><span>Book Now </span></button>
+            <!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+  
+    <div class="container">
+      <h1>Book Now</h1>
+      <hr>
+
+      <label for="ckin"><b>Check-In Date</b></label>
+      <input type="date" placeholder="MM/DD/YYYY" name="checkI" required>
+<br><br>
+      <label for="ckout"><b>Check-Out Date</b></label>    
+      <input type="date" placeholder="MM/DD/YYYY" name="checkO" required>
+      <br><br>
+      <label for="eml"><b>Email</b></label>    
+      <input type="email" placeholder="Email" name="email" required>
+<br><br>
+
+      <label for="firstn"><b>First Name</b></label>    
+      <input type="text" placeholder="First Name" name="fname" required>
+
+      <label for="lastn"><b>Last Name</b></label>    
+      <input type="text" placeholder="Last Name" name="lname" required>
+
+       <button type="submit">Complete Reservation</button>     
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+    </div>
+</div>
+    </div>
+
+
+<!--fifth Image-->
+
+ <div class="column">
+    <div class="content">
+      <img src="images/g4.jpg" alt="Room Three" style="width:100%">
+      <h6 style="text-align:left"> Max Occupancy: 4 Guests</h6>
+      <h3 style="text-align:center">2 Twin Beds</h3>
+      
+      
+    <h5><b>Room Highlights:</b></h5>
+    <ul style="list-style-type:disc;">
+       <li>32-inch HDTV</li>
+       <li>Microwave</li>
+       <li>Fridge</li>
+      <li>Iron</li>
+      <li>Hairdryer</li>
+</ul>
+
+    
+      <button class="button" onclick="document.getElementById('id01').style.display='block'"><span>Book Now </span></button>
+            <!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+  
+    <div class="container">
+      <h1>Book Now</h1>
+      <hr>
+
+      <label for="ckin"><b>Check-In Date</b></label>
+      <input type="date" placeholder="MM/DD/YYYY" name="checkI" required>
+<br><br>
+      <label for="ckout"><b>Check-Out Date</b></label>    
+      <input type="date" placeholder="MM/DD/YYYY" name="checkO" required>
+      <br><br>
+      <label for="eml"><b>Email</b></label>    
+      <input type="email" placeholder="Email" name="email" required>
+<br><br>
+
+      <label for="firstn"><b>First Name</b></label>    
+      <input type="text" placeholder="First Name" name="fname" required>
+
+      <label for="lastn"><b>Last Name</b></label>    
+      <input type="text" placeholder="Last Name" name="lname" required>
+
+       <button type="submit">Complete Reservation</button>     
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+    </div>
+</div>
+    </div>
+ 
+
+<!--sixth Image-->
+
+ <div class="column">
+    <div class="content">
+      <img src="images/g4.jpg" alt="Room Three" style="width:100%">
+      <h6 style="text-align:left"> Max Occupancy: 4 Guests</h6>
+      <h3 style="text-align:center">2 Twin Beds</h3>
+      
+      
+    <h5><b>Room Highlights:</b></h5>
+    <ul style="list-style-type:disc;">
+       <li>32-inch HDTV</li>
+       <li>Microwave</li>
+       <li>Fridge</li>
+      <li>Iron</li>
+      <li>Hairdryer</li>
+</ul>
+
+    
+      <button class="button" onclick="document.getElementById('id01').style.display='block'"><span>Book Now </span></button>
+            <!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+  
+    <div class="container">
+      <h1>Book Now</h1>
+      <hr>
+
+      <label for="ckin"><b>Check-In Date</b></label>
+      <input type="date" placeholder="MM/DD/YYYY" name="checkI" required>
+<br><br>
+      <label for="ckout"><b>Check-Out Date</b></label>    
+      <input type="date" placeholder="MM/DD/YYYY" name="checkO" required>
+      <br><br>
+      <label for="eml"><b>Email</b></label>    
+      <input type="email" placeholder="Email" name="email" required>
+<br><br>
+
+      <label for="firstn"><b>First Name</b></label>    
+      <input type="text" placeholder="First Name" name="fname" required>
+
+      <label for="lastn"><b>Last Name</b></label>    
+      <input type="text" placeholder="Last Name" name="lname" required>
+
+       <button type="submit">Complete Reservation</button>     
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+    </div>
+</div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+
+  </body>
+
+
+</html>

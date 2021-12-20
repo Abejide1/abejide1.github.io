@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Contact Page</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	 crossorigin="anonymous">
+	<script src="script.js">
+
+	</script>
+</head>
+
+<body>
+	<!--Head nav bar -->
+	<div class="header">
+		<div class="header-right">
+			<a href="index" href="index.html">Home</a>
+			<a href="rooms.html">Rooms</a>
+			<a class="active" href="#contact" href="contact.html">Contact</a>
+
+		</div>
+	</div <div class="locMap" style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;">
+	<div id="display-googlemap" style="height:100%; width:100%;max-width:100%;">
+		<iframe style="height:100%;width:100%;border:0;frameborder=" 0 " src="https://www.google.com/maps/embed/v1/place?q=236+S+Jacques+St,+Arcola,+IL+61910+&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8 "></iframe></div>
+    <style>
+    #display-googlemap img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+    </style></div>
+
+
+<!--heading of Contact Page -->
+<h1 style="text-align:center "> Contact </h1><hr>
+<div class="container ">   
+
+ <div class="container-contact ">
+<div class="alist " style="text-align:center ">Get in Touch with us!</div>
+
+ <!--Conatact Page Background Scrolling -->
+<div class="parallax "></div>
+
+
+<!--Conatact Page Responsive Form within the parallax-->
+<div class="container-form ">
+  <form action="action_page.php ">
+    <div class="row ">
+      <div class="col-25 ">
+        <label for="fname ">First Name</label>
+      </div>
+      <div class="col-75 ">
+        <input type="text " id="fname " name="firstname " placeholder="Your name.. ">
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-25 ">
+        <label for="lname ">Last Name</label>
+      </div>
+      <div class="col-75 ">
+        <input type="text " id="lname " name="lastname " placeholder="Your last name.. ">
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-25 ">
+        <label for="Email ">Email</label>
+      </div>
+      <div class="col-75 ">
+        <input type="text " id="Email " name="Email " placeholder="Your E-mail.. " required>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-25 ">
+        <label for="subject ">How may we help?</label>
+      </div>
+      <div class="col-75 ">
+        <textarea id="subject " name="subject " placeholder="Write something.. " style="height:200px "></textarea>
+      </div>
+    </div>
+    <div class="row ">    
+      <input type="submit " value="Submit ">    
+     
+    </div>
+  </form>
+</div>
+
+<div class="parallax "></div>
+
+<div class="row ">
+  <div class="column ">
+    <div class="card ">.
+      <h3>What's Nearby</h3>
+      <p>Aikman Wildlife Adventure : 9 minutes</p>
+      <p>Hippie Memorial: 5 minutes </p>
+      <p>Illinois Amish Heritage Center: 10 minutes</p>
+      <p>Douglas County Museum: 12 mintues</p>
+      </div>
+  </div>
+  <div class="column ">
+    <div class="card ">.
+      <h3>Transportation</h3>
+      <p>Willard Airport: 35 minutes</p>
+      <p>Decatur Airport: 50 minutes</p>
+      </div>
+  </div>
+  <div class="column ">
+    <div class="card ">.
+      <h3>Parking</h3>
+      <p>Self Parking:        Available</p>
+      <p>Parking  details:  Parking Lot</p>
+      </div>
+  </div>
+</div>
+
+
+<!-- Footer-->
+<footer class="bg-dark text-center text-white ">
+   <!-- Grid container -->
+  <div class="container p-4 ">
+    <!--Grid row-->
+    <div class="row ">
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-12 mb-4 mb-md-0 ">
+        <h5 class="text-uppercase ">Contact</h5>
+
+        <p>
+        (217) 268-4971
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ">
+       <h5 class="text-uppercase ">Address</h5>
+        <p>
+      Monday: Open 24 Hours<br>
+      Tuesday: Open 24 Hours<br>
+      Wednesday: Open 24 Hours<br>
+      Thursday: Open 24 Hours<br>
+      Friday: Open 24 Hours<br>
+      Saturday: Open 24 Hours<br>
+      Sunday: Open 24 Hours
+      
+        </p>
+      </div>
+      <!--Grid column-->
+      
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ">
+       <h5 class="text-uppercase ">Business Hours</h5>
+
+        <p>
+      236 s Jacques st
+      arcola, IL 61910
+      United States
+        </p>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+
+  <div class="text-center p-3 " style="background-color: rgba(0, 0, 0, 0.2); ">
+
+    <img src="images/logo.jpg ">
+  </div>
+</footer>
+
+
+
+
+  </body>
+</html>
